@@ -27,6 +27,8 @@ class Leer_Fichero {
 				System.out.print(letra);
 
 			}
+			
+			entrada.close();
 		} catch (IOException e) {
 			System.out.println("No se ha encontrado el archivo");
 		}
